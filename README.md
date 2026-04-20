@@ -34,31 +34,30 @@ Fraud detection is a critical problem in financial services, where minimizing fi
 
 ### 1. Data Preparation
 
-- Imported transaction dataset
-- Checked missing values and data quality
-- Validated target labels (`Class`)
+- Import transaction dataset
+- Check missing values and data quality
+- Validate target labels (`Class`)
 
 ### 2. Exploratory Data Analysis
 
-- Summary statistics
-- Variable distribution analysis
-- Class distribution review
+- Distribution plots
 - Correlation matrix
-- Violin plots comparing fraud vs legitimate transactions
+- Violin plots by class
+- Fraud pattern exploration
 
-### 3. Predictive Modeling
+### 3. Modeling
 
-- Train-test split
+- Split data training testing (70% training, 30% testing) 
 - Logistic Regression model
 
 ### 4. Model Evaluation
 
 - Confusion Matrix
-- Precision
-- Recall
-- F1 Score
-- ROC Curve
-- Precision-Recall Curve
+- Accuracy   : 96,5%
+- Precision  : 97,7%
+- Recall     : 95,1%
+- F1 Score   : 96,4%
+- ROC Curve  : 0.9935
 
 ---
 
@@ -66,16 +65,11 @@ Fraud detection is a critical problem in financial services, where minimizing fi
 
 - Variables **V14**, **V17**, and **V10** showed strong separation between fraudulent and legitimate transactions.
 - Transaction **Amount** alone was not a strong predictor.
-- Balanced class distribution likely improved model learning performance.
+- Recall is more important than accuracy in fraud detection use cases.
 
 ---
 
-## Business Recommendations
 
-- Flag transactions exhibiting high-risk anomaly patterns.
-- Combine amount thresholds with behavioral signals.
-- Optimize recall while managing false positives.
-- Use predictive models to support real-time fraud monitoring.
 
 ---
 
