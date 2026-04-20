@@ -80,14 +80,14 @@ Fraud detection is a critical problem in financial services, where minimizing fi
 ---
 
 ## Output
-1. Distribusi Variables
+### 1. Distribusi Variables
  ![Image Alt](https://github.com/Yepta123/credit-card-fraud-detection-r/blob/4c97df8e5c7aa4e1bd7c07e04a4b87309104e482/Distribusi_Variables.png)
 
-2. Correlation Matriks
+### 2. Correlation Matriks
 ![Image Alt](https://github.com/Yepta123/credit-card-fraud-detection-r/blob/062701cde2b8c7b323c44312b38fdfb6d31be92c/Correlation_Matriks.png)
 
-3. Violin Plot 
+### 3. Violin Plot 
 ![Image Alt](https://github.com/Yepta123/credit-card-fraud-detection-r/blob/7149342a470d7b80dfc91c73c5fd5fc13cd1e048/Violin_Plot.png).
 
-4.ROC & PR Curve
+### 4.ROC & PR Curve
 ![Image Alt](https://github.com/Yepta123/credit-card-fraud-detection-r/blob/7149342a470d7b80dfc91c73c5fd5fc13cd1e048/ROC_Curve.png).
