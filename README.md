@@ -79,17 +79,6 @@ Fraud detection is a critical problem in financial services, where minimizing fi
 
 ---
 
-## Repository Structure
-
-```text
-credit-card-fraud-detection-r/
-├── data/
-│   └── creditcard.csv
-├── scripts/
-│   └── fraud_detection_analysis.R
-├── outputs/
-│   ├── class_distribution.png
-│   ├── violin_plot.png
-│   ├── correlation_matrix.png
-│   └── roc_curve.png
-└── README.md
+## Output
+1. Distribusi Variables
+ ![Image Alt](https://github.com/Yepta123/credit-card-fraud-detection-r/blob/4c97df8e5c7aa4e1bd7c07e04a4b87309104e482/Distribusi_Variables.png)
